@@ -1,0 +1,78 @@
+/* -----Custom Fonts--------*/
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:wght@500&display=swap');
+/* -----Common CSS --------*/
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-size:1em;
+    line-height:1.5;
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+
+}
+/*Global*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+a{
+    text-decoration:none;
+    color:#BA55D3;
+}
+h1{
+    font-weight:300;
+    font-size:60px;
+    line-height:1.2;
+    margin-bottom:15px;
+}
+header{
+     background:#ffffff;
+
+    color:#1E90FF;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#BA55D3 solid 3px;
+}
+header a{
+    color:#1E90FF;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:1em;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    display:inline;
+    padding:0 15px 0 15px;
+}
+header #logo{
+    float:left;
+}
+header nav{
+    float:right;
+    margin-top:30px;
+}
+header .currentpg a{
+    border:#BA55D3 solid 2px;
+    padding:5px;
+
+}
+header .currentpg a:hover{
+    color:#BA55D3;
+     border:#1E90FF solid 2px;
+     padding:5px;
+}
+header a:hover{
+    color:#BA55D3;
+}
