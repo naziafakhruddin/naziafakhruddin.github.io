@@ -75,9 +75,18 @@ header .currentpg a:hover{
 header a:hover{
     color:#BA55D3;
 }
-
-
-
+@media(max-width:800px){
+    header #logo,
+    header nav,
+    header li{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+    header .currentpg{
+        padding-bottom:10px;
+    }
+}
 
 
 /* Footer */
