@@ -75,7 +75,7 @@ header .currentpg a:hover{
 header a:hover{
     color:#BA55D3;
 }
-@media(max-width:800px){
+@media(max-width:700px){
     header #logo,
     header nav,
     header li{
