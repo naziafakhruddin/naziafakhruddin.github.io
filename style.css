@@ -1,5 +1,5 @@
 /* -----Custom Fonts--------*/
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:wght@300;400;500;700&display=swap')
 /* -----Common CSS --------*/
 
 *{
@@ -34,9 +34,9 @@ h1{
     line-height:1.2;
     margin-bottom:15px;
 }
+/* header */
 header{
-     background:#ffffff;
-
+    background:#ffffff;
     color:#1E90FF;
     padding-top:30px;
     min-height:70px;
@@ -66,7 +66,6 @@ header nav{
 header .currentpg a{
     border:#BA55D3 solid 2px;
     padding:5px;
-
 }
 header .currentpg a:hover{
     color:#BA55D3;
@@ -74,5 +73,38 @@ header .currentpg a:hover{
      padding:5px;
 }
 header a:hover{
+    color:#BA55D3;
+}
+
+
+
+
+
+/* Footer */
+footer{
+    text-align:center;
+    background:linear-gradient(4.6rad,#1E90FF,white,#BA55D3);
+    padding:10px;
+    font-size:1rem;
+}
+footer  li{
+    text-decoration:none;
+    display:inline;
+    margin:0 5px 5px 10px;
+
+}
+footer #links a{
+     color:#BA55D3;
+     font-size:1rem;
+
+     margin-right:2px;
+}
+
+#icons a{
+     color:#BA55D3;
+     margin:2px;
+}
+
+footer .copyright{
     color:#BA55D3;
 }
