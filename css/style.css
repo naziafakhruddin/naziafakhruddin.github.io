@@ -1,10 +1,15 @@
+*{
+    box-sizing:border-box;
+}
+
+
 h1, h2, h3, .customerName {
 	color: #60B0F4;
 }
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
-	font-style: 500;
+	font-weight: 300;
 	font-size: 50px;
 }
 
