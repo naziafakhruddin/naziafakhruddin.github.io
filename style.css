@@ -102,8 +102,7 @@ footer{
     margin-top:20px;
     font-size:16px;
 }
- 
-footer ul li{
+footer li{
     text-transform:uppercase;
     link-style:none;
 }
