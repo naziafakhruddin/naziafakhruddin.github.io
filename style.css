@@ -32,15 +32,12 @@ h1{
     font-weight:300;
     font-size:60px;
     line-height:1.2;
-    margin-bottom:15px;
+    
 }
 /* header */
 header{
     background:#ffffff;
     color:#1E90FF;
-    padding-top:30px;
-    min-height:70px;
-    border-bottom:#BA55D3 solid 3px;
 }
 header a{
     color:#1E90FF;
@@ -48,45 +45,14 @@ header a{
     text-transform:uppercase;
     font-size:1em;
 }
-header ul{
-    margin:0;
-    padding:0;
-}
-header li{
-    display:inline;
-    padding:0 15px 0 15px;
-}
-header #logo{
-    float:left;
-}
-header nav{
-    float:right;
-    margin-top:30px;
-}
-header .currentpg a{
-    border:#BA55D3 solid 2px;
-    padding:5px;
-}
+
 header .currentpg a:hover{
-    color:#BA55D3;
-     border:#1E90FF solid 2px;
-     padding:5px;
+    color:#1E90FF;
 }
 header a:hover{
     color:#BA55D3;
 }
-@media(max-width:700px){
-    header #logo,
-    header nav,
-    header li{
-        float:none;
-        text-align:center;
-        width:100%;
-    }
-    header .currentpg{
-        padding-bottom:10px;
-    }
-}
+
 
 
 /* Footer */
@@ -94,7 +60,7 @@ footer{
     text-align:center;
     background:linear-gradient(4.6rad,#1E90FF,white,#BA55D3);
     padding:10px;
-    font-size:1rem;
+    font-size:16px;
 }
 footer  li{
     text-decoration:none;
