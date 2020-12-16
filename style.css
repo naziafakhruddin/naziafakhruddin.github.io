@@ -104,6 +104,7 @@ footer a{
 }
 footer li{
     list-style:none;
+    display:inline;
 }
 footer #links a{
      color:#BA55D3;
