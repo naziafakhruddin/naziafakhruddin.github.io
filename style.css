@@ -104,7 +104,7 @@ div#directions,#rules,#travel,#faq{
     margin-top: 25px;
     
 }
-img{
+.map img{
     width:80%;
     height:auto;
 }
