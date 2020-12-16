@@ -50,10 +50,10 @@ header .currentpg a:hover{
     color:#BA55D3;
 }
 header a:hover{
-    color:#BA55D3;
+    color:#1E90FF;
 }
 header #currentpg li{
-     color:#1E90FF;
+     color:#BA55D3;
 }
 
 
@@ -62,7 +62,7 @@ footer{
     text-align:center;
     font-size:16px;
 }
-footer  li{
+footer  li a{
     text-decoration:none;
 }
 footer #links a{
