@@ -88,7 +88,7 @@ header #currentpg {
 /* Newsletter */
 #newsletter h3{
     color:#1E90FF;
-    font-family: 'Lobster', cursive;
+    font-family: 'Luckiest Guy', cursive;
     font-size:2em;
 }
 #lname{
@@ -101,9 +101,7 @@ header #currentpg {
 footer{
     font-size:16px;
 }
-footer a{
-    text-decoration:none;
-}
+ 
 footer ul li{
     list-style:none;
     display:inline;
@@ -112,7 +110,8 @@ footer #links a{
      color:#BA55D3;
      font-size:1rem;
 }
-#icons a{
+footer #icons a{
+     text-decoration:none;
      color:#BA55D3;
 }
 
