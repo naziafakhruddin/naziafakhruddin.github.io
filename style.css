@@ -99,12 +99,13 @@ header #currentpg {
 
 /* Footer */
 footer{
+    margin-top:20px;
     font-size:16px;
 }
  
 footer ul li{
     list-style:none;
-    display:inline;
+    text-transform:uppercase;
 }
 footer #links a{
      color:#BA55D3;
