@@ -95,7 +95,24 @@ header #currentpg {
     font-family: 'Montserrat', sans-serif;
     color:black;
 }
-
+h2{
+    font-weight:350;
+    font-size:30px;
+    line-height:1.2;
+    margin-bottom:10px;
+}
+h3{
+    font-weight:350;
+    font-size:20px;
+    line-height:1.2;
+    margin-bottom:10px;
+}
+h4{
+    font-weight:300;
+    font-size:20px;
+    line-height:1.2;
+    margin-bottom:10px;
+}
 
 /* Footer */
 footer{
