@@ -52,7 +52,9 @@ header .currentpg a:hover{
 header a:hover{
     color:#BA55D3;
 }
-
+header #currentpg li{
+     color:#1E90FF;
+}
 
 
 /* Footer */
@@ -66,9 +68,6 @@ footer  li{
 footer #links a{
      color:#BA55D3;
      font-size:1rem;
-}
-footer #currentpg li{
-     color:#1E90FF;
 }
 #icons a{
      color:#BA55D3;
