@@ -32,7 +32,7 @@ a{
     color:#ffffff;
     font-size:12px;
     text-transform:uppercase;
-    background:#1E90FF;
+    background: #60B0F4;
     padding:10px;
     border-radius:10px;
 }
@@ -45,10 +45,10 @@ h1{
 /* header */
 header{
     background:#ffffff;
-    color:#1E90FF;
+    color: #60B0F4;
 }
 header a{
-    color:#1E90FF;
+    color: #60B0F4;
     text-decoration:none;
     text-transform:uppercase;
     font-size:1em;
@@ -57,20 +57,20 @@ header li{
     list-style:none;
 }
 header .currentpg a:hover{
-    color:#1E90FF;
+    color: #60B0F4;
 }
 header a:hover{
     color:#BA55D3;
 }
 header #currentpg {
-     color:#1E90FF;
+     color: #60B0F4;
 }
 /* boxes*/
 #boxes{
     margin-top:20px;
 }
 #boxes h2{
-    color:#1E90FF;
+    color: #60B0F4;
     font-family: 'Montserrat', sans-serif;
     font-size:2em;
 }
@@ -87,7 +87,7 @@ header #currentpg {
 
 /* Newsletter */
 #newsletter h3{
-    color:#1E90FF;
+    color: #60B0F4;
     font-family: 'Luckiest Guy', cursive;
     font-size:2em;
 }
