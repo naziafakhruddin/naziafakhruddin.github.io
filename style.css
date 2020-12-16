@@ -23,6 +23,7 @@ body{
     width:80%;
     margin:auto;
     overflow:hidden;
+    background:white;
 }
 a{
     text-decoration:none;
@@ -73,6 +74,7 @@ header #currentpg {
     color: #60B0F4;
     font-family: 'Montserrat', sans-serif;
     font-size:2em;
+    font-weight:bold;
 }
 #boxes h3{
     color:#60B0F4;
@@ -123,7 +125,7 @@ div#directions,#rules,#travel,#faq{
     margin-top: 25px;
 
 }
-figure img{
+img{
     width:50%;
     height:auto;
 }
