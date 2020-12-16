@@ -23,7 +23,6 @@ body{
     width:80%;
     margin:auto;
     overflow:hidden;
-    background:white;
 }
 a{
     text-decoration:none;
@@ -104,7 +103,7 @@ div#directions,#rules,#travel,#faq{
     margin-top: 25px;
     
 }
-.map img{
+#map img{
     width:80%;
     height:auto;
 }
