@@ -54,7 +54,7 @@ header .currentpg a:hover{
 header a:hover{
     color:#BA55D3;
 }
-header #currentpg li{
+header #currentpg {
      color:#BA55D3;
 }
 
