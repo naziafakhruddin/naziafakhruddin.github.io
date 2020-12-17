@@ -40,7 +40,20 @@ h1{
     font-weight:300;
     font-size:60px;
     line-height:1.2;
+    color: #60B0F4;
     
+}
+h2{
+    font-weight:300;
+    font-size:40px;
+    line-height:1.2;
+     color: #60B0F4;
+}
+h3{
+    font-weight:300;
+    font-size:20px;
+    line-height:1.2;
+     color: #60B0F4;
 }
 /* header */
 header{
