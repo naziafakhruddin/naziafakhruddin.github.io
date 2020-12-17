@@ -57,6 +57,13 @@ h3{
     color: #60B0F4;
     text-transform:uppercase;
 }
+h4{
+    font-weight:600;
+    font-size:16px;
+    line-height:1.2;
+    color: #60B0F4;
+    text-transform:uppercase;
+}
 /* header */
 header{
     background:#ffffff;
@@ -123,7 +130,7 @@ div#directions,#rules,#travel,#faq{
     height:auto;
 }
 details{
-    border:none;
+    border-style:none;
 }
 /* Footer */
 footer{
