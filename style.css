@@ -129,7 +129,7 @@ div#directions,#rules,#travel,#faq{
     width:80%;
     height:auto;
 }
-summary {
+#bus summary {
   outline:none;
 }
 /* Footer */
