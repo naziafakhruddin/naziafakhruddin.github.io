@@ -87,13 +87,13 @@ header #currentpg {
 #boxes h2{
     color: #60B0F4;
     font-family: 'Montserrat', sans-serif;
-    font-size:2em;
+    font-size:1.5em;
     font-weight:bold;
 }
 #boxes h3{
     color:#60B0F4;
     font-family: 'Montserrat', sans-serif;
-    font-size:1em;
+    font-size:0.5em;
 }
 #boxes p{
     color:black;
@@ -121,6 +121,9 @@ div#directions,#rules,#travel,#faq{
 #map img{
     width:80%;
     height:auto;
+}
+details{
+    border:none;
 }
 /* Footer */
 footer{
