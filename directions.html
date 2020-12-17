@@ -10,25 +10,30 @@
     <meta name="refresh" content="600">
     <meta name="keywords" content="Theme Park,Tickets, Rides,Families,Children">
     <meta name="robots" content="onindex,nofollow">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
 <header>
-    <div id="logo">
-    <h1>UOL THEME PARK - Help Page</h1>
-    <img src="media/logo-horizontal.jpg" alt="On the logo of the theme park it's written UOL Park with Ferris wheelinplace of letter O" width="350" height="100" />
+    <div class="container">
+         <div id="logo">
+            <img src="media/horizontal_logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheelinplace of letter O" width="352" height="100"/>
+        </div>
+        <nav>
+            <ul>
+                <li ><a href="index.html">Experience</a></li>
+                <li><a href="ticket.html">Tickets & Passes</a></li>
+                <li class="currentpg"><a href="directions.html">Help</a></li>
+            </ul>
+       </nav>
     </div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Experience</a></li>
-            <li><a href="ticket.html">Tickets & Passes</a></li>
-            <li><a href="directions.html">Help</a></li>
-        </ul>
-   </nav>
-</header>   
+</header>
 <!-- The code for Directions, Contact,Rules and Travel section  written by Maxwell Hemingway of Group 100 (Tutor group 10) -->  
 
-       <div id="directions"> 
-            <h2>Directions</h2>
+       <div class="container" id="directions"> 
+            <h1>Help</h1>
+           
+                <h2>Directions</h2>
                 <address> 
                 UOL Park<br>
                 Happiness Boulevard<br>
@@ -38,7 +43,7 @@
                 </address>
             
             <div id=openingtimes>
-                <p>Park opening times:</p>
+                <h3>Park opening times:</h3>
                 <table>
                 <tr><td><b>Day</b></td><td><b>Time</b></td></tr>
                 <tr><td>Monday</td><td>7am - 8pm</td></tr>
@@ -54,7 +59,7 @@
            
             <!-- Map section code by Nazia Fakhruddin of Group 100 (Tutor group 10)-->   
             <div id="map">
-                <h4>Map to UOL Park</h4>
+                <h3>Map to UOL Park</h3>
                 <figure>
                     <img src="media/map.png" width="350" height="242" alt="A map depicting the location of UOL park and its proximity to major roads and landmarks"/>
                     <figcaption>
@@ -69,7 +74,7 @@
               <p>Telephone: 00123456789</p>
               <p>email:uolpark@web.com</p>
               <div id="officehours">
-                <p>Office hours:</p>
+                <h3>Office hours:</h3>
 
                 <table>
                 <tr><td><b>Day</b></td><td><b>Time</b></td></tr>
@@ -85,7 +90,7 @@
             </div>
          </div>
         
-         <div id=rules>
+         <div class="container" id=rules>
             <!--the RULES section of the page-->
             <img src="media/rules.jpg" width="350" height="242" alt="Rules word is written with the blocks" />
             <h2>Rules and Regulations</h2>
@@ -106,11 +111,11 @@
                 </ul>
         </div>
         
-        <div id="travel">
+        <div class="container" id="travel">
             <!--the TRAVEL section of the page-->
             <h2>Travelling Options</h2>
             
-            <div class=container id="options">
+            <div id="options">
                 <div id="car">
                     <img src="media/car1.jpg" width="350" height="242" alt=" A yellow colour toy car" />
                     <h3>BY CAR</h3>
@@ -126,7 +131,7 @@
                     <h3>BY BUS</h3>
                     <p>There are many local buses from the city of Coursera that take you to UOL park, you can find bus time tables <a href="https://www.stagecoachbus.com/timetables">here.</a></p>
                      <div id="shuttle">
-                        <h4>Shuttle Bus</h4>
+                        <h3>Shuttle Bus</h3>
                         <p>UOL park also provides convenient shuttle buses for season ticket holders, please check the locations and departure times below</p>
                         <table>
                         <tr><td><b>Departure location</b></td><td><b>Departure from city at:</b></td><td><b>Departure from UOL park at:</b></td></tr>
@@ -142,7 +147,7 @@
             
   <!-- FAQ's section with images and links code written by Nazia Fakhruddin of Group 100 (Tutor group 10) -->
   
-      <div id="faq">
+      <div class="container" id="faq">
         <h2>FAQ's</h2>
          <div class="questions">
            <img src="media/ferriswheel.jpg" width="350" height="242" alt=" Ferris wheel" />
@@ -184,24 +189,24 @@
        </div>
             
   <!-- The footer section with logo , links , social media icons and links  code written by Sergio Bustos of Group 100 (Tutor group 10) -->
-   <footer id="footer">
+  <footer id="footer">
      <div id="footerlogo">
         <img src="media/Logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheel in place of letter O" width="100" height="100" />
-    
-        <ul>
+
+        <ul id="links">
             <li><a href="index.html">Experience</a></li>
             <li><a href="ticket.html">Tickets & Passes</a></li>
             <li><a href="directions.html"> Help </a></li>
         </ul>
-        <div>
-            <a href="https://www.facebook.com/"><img src="media/facebook.svg" alt="Facebook icon" width="20" height="20"></a>
-            <a href="https://twitter.com/"><img src="media/twitter.svg" alt="Twitter icon" width="20" height="20"></a>
-            <a href="https://www.instagram.com/"><img src="media/instagram.svg" alt="Instagram icon" width="20" height="20"></a>
-            <a href="https://www.pinterest.com/"><img src="media/pinterest.svg" alt="Pinterest icon" width="20" height="20"></a>
+        <div id="icons">
+            <a href="https://facebook.com/" alt="facebook icon"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://twitter.com/" alt="twitter icon"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/" alt="instagram icon"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.pinterest.com/"alt="pinterest icon"><i class="fab fa-pinterest fa-2x"></i></a>
         </div>
-        <p> &#169; UOL Park 2020</p>
+        <p class="copyright"> &#169; UOL Park 2020</p>
     </div>
- </footer>
+</footer>
 </body>
 </html>
 
