@@ -115,7 +115,10 @@ h1, h2, h3, .customerName {
 	background: #BA55D3;
 }
 
-.explore>img, .events>img {
+.explore>img{
+	width: 350px;
+}
+.events>img {
 	width: 350px;
 }
 
