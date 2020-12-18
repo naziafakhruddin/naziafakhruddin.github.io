@@ -92,7 +92,10 @@ header #currentpg {
      color:#BA55D3;
 }
 /* reviews*/
-
+.customerReviews img{
+    width:100px;
+    height:100px;
+}
 
 /* boxes*/
 #boxes{
