@@ -1,5 +1,7 @@
 /* -----Custom Fonts--------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* -----Common CSS --------*/
 
 *{
@@ -24,98 +26,60 @@ body{
     margin:auto;
     overflow:hidden;
 }
-
-div#directions,#rules,#travel,#faq{
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-
-}
 a{
     text-decoration:none;
     color:#BA55D3;
 }
+
+.btn{
+    color:#ffffff;
+    font-size:12px;
+    text-transform:uppercase;
+    background: #60B0F4;
+    padding:10px;
+    border-radius:10px;
+}
 h1{
-    font-weight:300;
-    font-size:3.6rem;
-	font-weight: 300;
+    font-weight:bold;
+    font-size:60px;
     line-height:1.2;
-    margin-bottom:15px;
-    text-align: center
+    color: #60B0F4;
 }
 h2{
-	font-weight: 700;
-    font-size:2rem;
+    font-weight:bold;
+    font-size:40px;
     line-height:1.2;
-    margin-bottom:10px;
+    color: #60B0F4;
 }
 h3{
-    font-size: 1.375rem;
-	font-weight: 500;
+    font-weight:bold;
+    font-size:20px;
     line-height:1.2;
-    margin-bottom:10px;
-}
-h4{
-    font-weight:300;
-    font-size:1.25rem;
-    line-height:1.2;
-    margin-bottom:10px;
+     color: #60B0F4;
 }
 /* header */
 header{
     background:#ffffff;
-    color:#1E90FF;
-    padding-top:30px;
-    min-height:70px;
-    border-bottom:#BA55D3 solid 3px;
+    color: #60B0F4;
 }
 header a{
-    color:#1E90FF;
+    color: #60B0F4;
     text-decoration:none;
     text-transform:uppercase;
     font-size:1em;
 }
-header ul{
-    margin:0;
-    padding:0;
-}
 header li{
-    display:inline;
-    padding:0 15px 0 15px;
-}
-header #logo{
-    float:left;
-}
-header nav{
-    float:right;
-    margin-top:30px;
-}
-header .currentpg a{
-    border:#BA55D3 solid 2px;
-    padding:5px;
+    list-style:none;
 }
 header .currentpg a:hover{
-    color:#BA55D3;
-     border:#1E90FF solid 2px;
-     padding:5px;
+    color: #60B0F4;
 }
 header a:hover{
     color:#BA55D3;
 }
-@media(max-width:700px){
-    header #logo,
-    header nav,
-    header li{
-        float:none;
-        text-align:center;
-        width:100%;
-    }
-    header .currentpg{
-        padding-bottom:10px;
-    }
+header #currentpg{
+  color:#60B0F4;
 }
-
 
 /*Middle part Except header and footer*/
 
@@ -151,7 +115,6 @@ h1, h2, h3, .customerName {
 	background: #BA55D3;
 }
 
-
 .explore>img, .events>img {
 	width: 350px;
 }
@@ -176,33 +139,70 @@ h1, h2, h3, .customerName {
 	max-height: 300px;
 }
 
+header #currentpg {
+     color: #60B0F4;
+}
+/* boxes*/
+#boxes{
+    margin-top:20px;
+}
+#boxes h2{
+    color: #60B0F4;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2em;
+    font-weight:bold;
+}
+#boxes h3{
+    color:#60B0F4;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1em;
+}
+#boxes p{
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+}
 
+/* Newsletter */
+#newsletter h3{
+    color: #60B0F4;
+    font-family: 'Luckiest Guy', cursive;
+    font-size:2em;
+}
+#lname{
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+}
 
-
-
+div#directions,#rules,#travel,#faq{
+    padding: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    
+}
+#map img{
+    width:80%;
+    height:auto;
+}
 /* Footer */
 footer{
-    text-align:center;
-    background:linear-gradient(4.6rad,#1E90FF,white,#BA55D3);
-    padding:10px;
-    font-size:1rem;
+    margin-top:20px;
+    font-size:16px;
 }
-footer  li{
-    text-decoration:none;
-    display:inline;
-    margin:0 5px 5px 10px;
-
+footer ul{
+    text-transform:uppercase;
+}
+footer li{
+    link-style:none;
 }
 footer #links a{
      color:#BA55D3;
      font-size:1rem;
 
-     margin-right:2px;
 }
-
-#icons a{
+footer #icons a{
+     text-decoration:none;
      color:#BA55D3;
-     margin:2px;
 }
 
 footer .copyright{
