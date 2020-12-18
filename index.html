@@ -22,8 +22,8 @@
         <nav>
             <ul>
                 <li class="currentpg"><a href="index.html">Experience</a></li>
-                <li><a href="ticket.html">Tickets & Passes</a></li>
-                <li><a href="directions.html">Help</a></li>
+                <li><a href="ticket.html">Tickets</a></li>
+                <li><a href="directions.html">Plan Your Visit</a></li>
             </ul>
        </nav>
     </div>
@@ -31,18 +31,21 @@
     
 <!-- Main Page video ,banner and button code written by Shudhanshu Gunjal of Group 100 (Tutor group 10) -->
 
-<video width="350" height="242" controls id="jumbotron">
-    <source src="media/amusement%20park.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-<h1>Experience the Fun</h1>
-
-    <a href="ticket.html">Book Now</a>
-
+<section id="jumbotron">
+    <div class="container">
+		<video controls autoplay muted loop>
+			<source src="media/amusement%20park.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<h1>Experience the Fun</h1>
+		<a class="btn" href="ticket.html">Book Now</a>
+    </div>
+</section>
 
 <!--Explore-->
-<h2>Explore</h2>
- <div id="explore">
+<section id="explore">    
+ <div class="container">
+    <h2>Explore</h2>
     <div class="explore">
         <img src="media/rides.jpg" alt="Ferris wheel" width="350" height="242">
         <h3>Rides</h3>
@@ -60,10 +63,12 @@
         <h3>Family</h3>
     </div>
 </div>
-
+</section>
 <!--Special Events-->
-<h2>Special Events</h2>
-<div id="specialEvents">
+
+<section id="specialEvents">
+  <div class="container">
+    <h2>Special Events</h2>
     <div class="events">
         <img src="media/Christmas%20Celebration.jpg" alt="Mickey mouse celebrating Christmas" width="350" height="242">
         <p>Christmas Celebration</p>
@@ -88,45 +93,51 @@
         <img src="media/The%20Great%20Pumpkin%20Fest.jpg" alt="A girl sitting front of pumpkins" width="350" height="242">
         <p>The Great Pumpkin Fest</p>
     </div>
-</div>
+ </div>
+</section>
 
-<!--Reviews-->
-<h2>Reviews</h2>
-<div id="reviews">
+<!--Reviews Section code written by Nazia Fakhruddin of Group 100 (Tutor group 10)-->
+
+<section id="reviews">
+ <div class="container">
+    <h2>Reviews</h2>
     <div class="comments">
-        <img class="reviewImage" src="media/star.png" alt="person photo" width="350" height="242">
+        <img class="reviewImage" src="media/review.png" alt="speech bubbles photo" width="350" height="242">
         <div>
             <p class="customerName"><b>Lester J.</b></p>
             <p class="customerReview"> Water slides are so much fun!.</p>
         </div>
     </div>
     <div class="comments">
-        <img class="reviewImage" src="media/star.png" alt="person photo" width="350" height="242">
+        <img class="reviewImage" src="media/review.png" alt="speech bubbles photo" width="350" height="242">
         <div>
             <p class="customerName"><b>Peter M.</b></p>
             <p class="customerReview">Great place ones visit with our family specially children's.</p>
         </div>
     </div>
     <div class="comments">
-        <img class="reviewImage" src="media/star.png" alt="person photo" width="350" height="242">
+        <img class="reviewImage" src="media/review.png" alt="speech bubbles photo" width="350" height="242">
         <div>
             <p class="customerName"><b>Ronald H.</b></p>
             <p class="customerReview">A wonderful place to enjoy a thrilling experience of VR Games, Pool, Boating,
                 Dinosaur ride and many more.</p>
         </div>
     </div>
-</div>
+  </div>      
+</section>
 
 <!--Gallery-->
-<h2 >Gallery</h2>
-<div id="gallery">
+<section id="gallery">
+ <div class="container">
+    <h2 >Gallery</h2>
     <img src="media/01.jpg" alt="roller coster" width="350" height="242">
     <img src="media/02.jpg" alt="merry-go-round" width="350" height="242">
     <img src="media/03.jpg" alt="roller coster" width="350" height="242">
     <img src="media/04.jpg" alt="roller coster" width="350" height="242">
     <img src="media/05.jpg" alt="boating" width="350" height="242">
     <img src="media/06.jpg" alt="fishing" width="350" height="242">
-</div>
+ </div>
+</section>
 
 <!-- The footer section with logo , links , social media icons and links  code written by Sergio Bustos of Group 100 (Tutor group 10) -->
   <footer id="footer">
@@ -135,15 +146,15 @@
         <div id="links">
         <ul>
             <li><a href="index.html">Experience</a></li>
-            <li><a href="ticket.html">Tickets & Passes</a></li>
-            <li><a href="directions.html"> Help </a></li>
+            <li><a href="ticket.html">Tickets</a></li>
+            <li><a href="directions.html">Plan Your Visit</a></li>
         </ul>
         </div>
         <div id="icons">
-            <a href="https://facebook.com/" alt="facebook icon"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="https://twitter.com/" alt="twitter icon"><i class="fab fa-twitter fa-2x"></i></a>
-            <a href="https://www.instagram.com/" alt="instagram icon"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="https://www.pinterest.com/"alt="pinterest icon"><i class="fab fa-pinterest fa-2x"></i></a>
+            <a href="https://facebook.com/"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.pinterest.com/"><i class="fab fa-pinterest fa-2x"></i></a>
         </div>
         <p class="copyright"> &#169; UOL Park 2020</p>
     </div>
