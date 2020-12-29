@@ -3,48 +3,53 @@
 <html lang="en">
 
 <head>
-
-    <title>UOL Theme Park</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="This is a UOL Theme Park website for the customers to explore the park and it's facilities.">
-    <meta name="author" content="Theme Park Customers">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="refresh" content="600">
-    <meta name="keywords" content="Theme Park,Tickets, Rides,Families,Children">
-    <meta name="robots" content="onindex,nofollow">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<title>UOL Theme Park</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is a UOL Theme Park website for the customers to explore the park and it's facilities.">
+	<meta name="author" content="Theme Park Customers">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="refresh" content="600">
+	<meta name="keywords" content="Theme Park,Tickets, Rides,Families,Children">
+	<meta name="robots" content="onindex,nofollow">	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="mobile.css" />
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 
 <body>
-<header>
-    <div class="container">
-         <div id="logo">
-            <img src="media/horizontal_logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheelinplace of letter O" width="352" height="100"/>
-        </div>
-        <nav>
-            <ul>
-                <li class="currentpg"><a href="index.html">Experience</a></li>
-                <li><a href="ticket.html">Tickets & Passes</a></li>
-                <li><a href="directions.html">Help</a></li>
-            </ul>
-       </nav>
-    </div>
-</header>
-    
-<!-- Main Page video ,banner and button code written by Shudhanshu Gunjal of Group 100 (Tutor group 10) -->
+	<header>
+		<div class="container">
+			<div id="logo">
+				<img class="not-animate" src="media/horizontal_logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheelinplace of letter O" width="352" height="100" />
+			</div>
+			<nav>
+				<ul>
+					<li class="currentpg"><a href="index.html">Experience</a></li>
+					<li><a href="ticket.html">Tickets & Passes</a></li>
+					<li><a href="directions.html">Help</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Main Page video ,banner and button code written by Shudhanshu Gunjal of Group 100 (Tutor group 10) -->
 
 	<div id="jumbotron">
-		<video controls autoplay muted loop>
+		<video autoplay muted loop>
 			<source src="media/amusement%20park.mp4" type="video/mp4">
 			Your browser does not support the video tag.
 		</video>
-		<h1>Experience the Fun</h1>
-		<a class="btn" href="ticket.html">Book Now</a>
+		<div class="video-overlay"></div>
+		<div class="text-overlay">
+			<h1>Experience the Fun</h1>
+			<a class="btn" href="ticket.html">Book Now</a>
+		</div>
 	</div>
+
+	<main>
 	<!--Explore-->
 	<h2>Explore</h2>
-	<div id="explore">
+	<div id="explore-container">
 		<div class="explore">
 			<img src="media/rides.jpg" alt="Ferris wheel">
 			<h3>Rides</h3>
@@ -65,7 +70,7 @@
 
 	<!--Special Events-->
 	<h2>Special Events</h2>
-	<div id="specialEvents">
+	<div id="specialEvents-container">
 		<div class="events">
 			<img src="media/Christmas%20Celebration.jpg" alt="Mickey mouse celebrating Christmas">
 			<h3>Christmas Celebration</h3>
@@ -94,22 +99,22 @@
 
 	<!--Reviews-->
 	<h2>Reviews</h2>
-	<div id="reviews">
-		<div class="comments">
+	<div id="reviews-container">
+		<div class="review">
 			<img class="reviewImage" src="media/5.jpg" alt="person photo">
 			<div>
 				<p class="customerName"><b>Emma J.</b></p>
 				<p class="customerReview"> Water slides are so much fun!.</p>
 			</div>
 		</div>
-		<div class="comments">
+		<div class="review">
 			<img class="reviewImage" src="media/4.jpg" alt="person photo">
 			<div>
 				<p class="customerName"><b>Peter M.</b></p>
 				<p class="customerReview">Great place ones visit with our family specially children's.</p>
 			</div>
 		</div>
-		<div class="comments">
+		<div class="review">
 			<img class="reviewImage" src="media/2.jpg" alt="person photo">
 			<div>
 				<p class="customerName"><b>Ronald H.</b></p>
@@ -118,10 +123,10 @@
 			</div>
 		</div>
 	</div>
-  
+
 	<!--Gallery-->
 	<h2>Gallery</h2>
-	<div id="gallery">
+	<div id="gallery-container">
 		<img src="media/01.jpg" alt="roller coster">
 		<img src="media/02.jpg" alt="merry-go-round">
 		<img src="media/03.jpg" alt="roller coster">
@@ -130,26 +135,28 @@
 		<img src="media/06.jpg" alt="fishing">
 	</div>
 
-<!-- The footer section with logo , links , social media icons and links  code written by Sergio Bustos of Group 100 (Tutor group 10) -->
-  <footer id="footer">
-     <div class="container">
-        <img src="media/Logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheel in place of letter O" width="100" height="100" />
-        <div id="links">
-        <ul>
-            <li><a href="index.html">Experience</a></li>
-            <li><a href="ticket.html">Tickets & Passes</a></li>
-            <li><a href="directions.html"> Help </a></li>
-        </ul>
-        </div>
-        <div id="icons">
-            <a href="https://facebook.com/" alt="facebook icon"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="https://twitter.com/" alt="twitter icon"><i class="fab fa-twitter fa-2x"></i></a>
-            <a href="https://www.instagram.com/" alt="instagram icon"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="https://www.pinterest.com/"alt="pinterest icon"><i class="fab fa-pinterest fa-2x"></i></a>
-        </div>
-        <p class="copyright"> &#169; UOL Park 2020</p>
-    </div>
-</footer>
+	</main>
+	
+
+	<!-- The footer section with logo , links , social media icons and links  code written by Sergio Bustos of Group 100 (Tutor group 10) -->
+	<footer id="footer">
+		<div id="footerlogo">
+			<img class="not-animate" src="media/Logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheel in place of letter O" width="100" height="100" />
+
+			<ul id="links">
+				<li><a href="index.html">Experience</a></li>
+				<li><a href="ticket.html">Tickets & Passes</a></li>
+				<li><a href="directions.html"> Help </a></li>
+			</ul>
+			<div id="icons">
+				<a href="https://facebook.com/" alt="facebook icon"><i class="fab fa-facebook fa-2x"></i></a>
+				<a href="https://twitter.com/" alt="twitter icon"><i class="fab fa-twitter fa-2x"></i></a>
+				<a href="https://www.instagram.com/" alt="instagram icon"><i class="fab fa-instagram fa-2x"></i></a>
+				<a href="https://www.pinterest.com/" alt="pinterest icon"><i class="fab fa-pinterest fa-2x"></i></a>
+			</div>
+			<p class="copyright"> &#169; UOL Park 2020</p>
+		</div>
+	</footer>
 </body>
 
 </html>
