@@ -178,6 +178,28 @@ ul .menu:hover .drop-menu li{
 	  padding:8px;
 }
 
+ /*-----Footer--------*/ 
+.container-footer{
+	grid-area:footer;
+	grid-template-columns:3fr;
+	text-align:center;
+	background:linear-gradient(4.6rad,#87CEFA,white,#BA55D3);
+	color:#BA55D3;
+	font-size:18px;
+	padding:30px 0 50px 0;
+	box-shadow:0px 20px 20px 20px #87CEEB;
+}
+.container-footer img{
+	width:80px;
+	height:80px;
+	border:none;
+	justify-self:center;
+
+}
+.container-footer p{
+	color:#BA55D3;
+}
+
 
 
 
@@ -288,28 +310,7 @@ div#directions,#rules,#travel,#faq{
     width:80%;
     height:auto;
 }
- /*-----Footer--------*/ 
-.container-footer{
-	grid-area:footer;
-	grid-template-columns:3fr;
-	text-align:center;
-	background:linear-gradient(4.6rad,#87CEFA,white,#BA55D3);
-	color:#BA55D3;
-	font-size:18px;
-	padding:30px 0 50px 0;
-	box-shadow:0px 20px 20px 20px #87CEEB;
-	position:relative;
-}
-.container-footer img{
-	width:80px;
-	height:80px;
-	border:none;
-	justify-self:center;
 
-}
-.container-footer p{
-	color:#BA55D3;
-}
 /*-----Media Queries ----*/ 
         @media(min-width:769px){
           .small-nav{
