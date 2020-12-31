@@ -58,28 +58,129 @@ h3{
      color: #60B0F4;
 }
 /* header */
-header{
-    background:#ffffff;
-    color: #60B0F4;
+ /*-----Navigation using Grid-template areas------*/
+.container-nav{
+            display:grid;
+            grid-template-columns:auto auto auto auto auto auto;
+            grid-template-areas:"logo   logo   nav    nav    nav    nav"
+                                "footer footer footer footer footer footer";
+            border-bottom:2px solid #87CEEB; 
+        }
+.logo{
+	   grid-area:logo;
+	   margin:20px;
+	   position:relative;
+	   animation:animate1 2s forwards linear; /*animation */
+        }
+        
+.logo img{
+           width:200px;
+           height:60px;
+           padding-top:5px; 
+          
+        }
+@keyframes animate1{         /*animation */
+            25%{
+                top:0;
+                left:-300px;
+            }
+            100%{
+                top:0;
+                left:0px;
+            }
+        }
+.nav{
+        grid-area:nav;
+        justify-self:end;
+        margin:20px; 
+        position:relative;  /* position-relative */
+        z-index:1;            /* z-index */
+        animation:animate2 2s backwards linear;  /* animation */    
+        }
+@keyframes animate2{
+            25%{
+                top:0;
+                right:-500px;
+            }
+            100%{
+                top:0;
+                right:0px;
+            }
+        }
+.nav .menu {
+         list-style:none;
+         display:inline-grid;
+         text-align:center;
+         padding:15px;
+         
+        }
+.nav .menu a{
+          text-decoration:none;
+          color:#BA55D3;
+          font-size:15px;
+          text-transform:uppercase;
+          transition:border 0.3s ease-in-out;
+        }
+.nav .menu a:hover{
+         border-bottom:5px inset #87CEEB;
+        }
+
+.nav .drop-menu{
+          background:#eee;
+          list-style:none;
+          display:block;
+          opacity:0.8;        /*opacity */
+          font-size:14px;
+          margin:0px;
+          padding:0px;
+          position:absolute; /* position-absolute */
+          z-index:2;         /* z-index */
+          top:80px;
+        }
+.nav .drop-menu li{
+          width:200px;
+          height:50px;
+          color:#BA55D3;
+          line-height:50px;
+          text-align:center;
+           box-shadow:2px 6px #bbb;
+        }
+.nav .drop-menu li a{
+          border:none;
+          box-shadow:none; 
+          text-decoration:none;
+          font-size:14px;
+          color:#BA55D3;
+          
+        }
+.nav .drop-menu li:hover{
+          margin:0px;
+          padding:0px;
+          font-weight:bold;
+          font-size:16px;
+          
+        }
+ul .menu .drop-menu li{
+          display:none;
+        }
+ul .menu:hover .drop-menu li{
+          display:block;
+          background:linear-gradient(4.6rad,#87CEFA,white,#eee);
+        }
+.nav .currentpg a{
+	  border-bottom:2px solid #87CEEB ;
+	  border-right:2px solid #87CEEB  ;
+	  padding:10px;
+	  box-shadow:2px 2px 2px 2px #ddd;
+ }
+ .nav .currentpg a:hover{
+	  color:#BA55D3;
+	  padding:8px;
 }
-header a{
-    color: #60B0F4;
-    text-decoration:none;
-    text-transform:uppercase;
-    font-size:1em;
-}
-header li{
-    list-style:none;
-}
-header .currentpg a:hover{
-    color: #60B0F4;
-}
-header a:hover{
-    color:#BA55D3;
-}
-header #currentpg{
-  color:#60B0F4;
-}
+
+
+
+
 
 /*Middle part Except header and footer*/
 
@@ -187,27 +288,26 @@ div#directions,#rules,#travel,#faq{
     width:80%;
     height:auto;
 }
-/* Footer */
-footer{
-    margin-top:20px;
-    font-size:16px;
+ /*-----Footer--------*/ 
+.container-footer{
+	grid-area:footer;
+	grid-template-columns:3fr;
+	text-align:center;
+	background:linear-gradient(4.6rad,#87CEFA,white,#BA55D3);
+	color:#BA55D3;
+	font-size:18px;
+	padding:30px 0 50px 0;
+	box-shadow:0px 20px 20px 20px #87CEEB;
+	position:relative;
 }
-footer ul{
-    text-transform:uppercase;
-}
-footer li{
-    link-style:none;
-}
-footer #links a{
-     color:#BA55D3;
-     font-size:1rem;
+.container-footer img{
+	width:80px;
+	height:80px;
+	border:none;
+	justify-self:center;
 
 }
-footer #icons a{
-     text-decoration:none;
-     color:#BA55D3;
+.container-footer p{
+	color:#BA55D3;
 }
 
-footer .copyright{
-    color:#BA55D3;
-}
