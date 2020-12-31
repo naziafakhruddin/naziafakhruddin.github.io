@@ -17,20 +17,61 @@
 </head>
 
 <body>
-<header>
-    <div class="container">
-         <div id="logo">
-            <img src="media/horizontal_logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheelinplace of letter O" width="352" height="100"/>
-        </div>
-        <nav>
-            <ul>
-                <li class="currentpg"><a href="index.html">Experience</a></li>
-                <li><a href="ticket.html">Tickets & Passes</a></li>
-                <li><a href="directions.html">Help</a></li>
-            </ul>
+<!--Navigation-->
+    <div class="container-nav">
+       <header class="logo">
+         <img src="media/horizontal_logo.png">
+       </header>
+       <nav class="nav">
+          <ul>
+              <li class="menu currentpg "><a href="index.html">Experience</a>
+                <ul class="drop-menu">
+                    <li><a href="index.html">EXPLORE</a></li>
+                    <li><a href="index.html">SPECIAL EVENTS</a> </li>
+                    <li><a href="index.html">REVIEWS</a></li>
+                    <li><a href="index.html">GALLERY</a></li>
+                </ul>
+              </li>
+              <li class="menu"><a href="ticket.html">Tickets</a>
+                <ul class="drop-menu">
+                    <li><a href="ticket.html">TICKETS</a></li>
+                    <li><a href="ticket.html">PASSES</a> </li>
+                    <li><a href="ticket.html">ADD ONS</a></li>
+                </ul>
+              </li>
+              <li class="menu"><a href="directions.html">Plan Your Visit</a>
+                <ul class="drop-menu">
+                    <li><a href="directions.html">DIRECTIONS</a></li>
+                    <li><a href="directions.html">CONTACT US</a></li>
+                    <li><a href="directions.html">RULES </a></li>
+                    <li><a href="directions.html">TRAVEL OPTIONS</a></li>
+                    <li><a href="directions.html">FAQ'S</a></li>
+                </ul>
+              </li>
+          </ul>
        </nav>
+    
+    
+    <!--Navigation for small screen-->
+       <div class="small-nav">
+         <ul>
+            <li class="menu"><i class="fas fa-bars"></i>
+                <ul class="drop">
+                  <li class="drop-menu">
+                      <a href="index.html"><img class=" image currentpg" src="media/experience.png" alt="hotairballoon icon"></a>
+                  </li>
+                  <li class="drop-menu">
+                      <a href="ticket.html"><img class="image" src="media/ticket.png" alt="ticket icon"></a>
+                  </li>
+                  <li class="drop-menu ">
+                      <a href="directions.html"><img class="image" src="media/direction.png"></a> 
+                  </li>    
+                </ul>
+             <li>       
+         </ul>    
+        </div>
     </div>
-</header>
+    
     
 <!-- Main Page video ,banner and button code written by Shudhanshu Gunjal of Group 100 (Tutor group 10) -->
 
@@ -131,25 +172,24 @@
 	</div>
 
 <!-- The footer section with logo , links , social media icons and links  code written by Sergio Bustos of Group 100 (Tutor group 10) -->
-  <footer id="footer">
-     <div class="container">
-        <img src="media/Logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheel in place of letter O" width="100" height="100" />
-        <div id="links">
-        <ul>
+  <footer class="container-footer">
+    
+       <img src="media/Logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheel in place of letter O" />
+
+        <ul class="links">
             <li><a href="index.html">Experience</a></li>
-            <li><a href="ticket.html">Tickets & Passes</a></li>
+            <li><a href="ticket.html">Tickets</a></li>
             <li><a href="directions.html"> Help </a></li>
         </ul>
-        </div>
-        <div id="icons">
+        <div class="icons">
             <a href="https://facebook.com/" alt="facebook icon"><i class="fab fa-facebook fa-2x"></i></a>
             <a href="https://twitter.com/" alt="twitter icon"><i class="fab fa-twitter fa-2x"></i></a>
             <a href="https://www.instagram.com/" alt="instagram icon"><i class="fab fa-instagram fa-2x"></i></a>
             <a href="https://www.pinterest.com/"alt="pinterest icon"><i class="fab fa-pinterest fa-2x"></i></a>
         </div>
         <p class="copyright"> &#169; UOL Park 2020</p>
-    </div>
-</footer>
+    </footer>
+    
 </body>
 
 </html>
