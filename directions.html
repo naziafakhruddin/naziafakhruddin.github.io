@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
+<head>
+    <html lang="en">
 <head>
     <title>UOL Theme Park</title>
     <meta charset="UTF-8">
@@ -10,135 +11,143 @@
     <meta name="refresh" content="600">
     <meta name="keywords" content="Theme Park,Tickets, Rides,Families,Children">
     <meta name="robots" content="onindex,nofollow">
+    <link rel="stylesheet" type="text/css" href="nav.css"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     
 </head>
+
 <body>
-
-    <header>
-        <div id="logo">
-        <h1>UOL THEME PARK - Help Page</h1>
-        <img src="media/horizontal_logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheelinplace of letter O" width=300px height=100px />
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Experience</a></li>
-                <li><a href="ticket.html">Tickets & Passes</a></li>
-                <li><a href="directions.html">Help</a></li>
-            </ul>
+    <!--Navigation-->
+    <div class="container-nav">
+       <header class="logo">
+         <img src="media/horizontal_logo.png">
+       </header>
+       <nav class="nav">
+          <ul>
+              <li class="menu"><a href="index.html">Experience</a>
+                <ul class="drop-menu">
+                    <li><a href="index.html">EXPLORE</a></li>
+                    <li><a href="index.html">SPECIAL EVENTS</a> </li>
+                    <li><a href="index.html">REVIEWS</a></li>
+                    <li><a href="index.html">GALLERY</a></li>
+                </ul>
+              </li>
+              
+              <li class="menu"><a href="ticket.html">Tickets</a>
+                <ul class="drop-menu">
+                    <li><a href="ticket.html">TICKETS</a></li>
+                    <li><a href="ticket.html">PASSES</a> </li>
+                    <li><a href="ticket.html">ADD ONS</a></li>
+                </ul>
+              </li>
+              <li class="menu currentpg "><a href="directions.html">Plan Your Visit</a>
+                <ul class="drop-menu">
+                    <li><a href="directions.html">DIRECTIONS</a></li>
+                    <li><a href="directions.html">CONTACT US</a></li>
+                    <li><a href="directions.html">RULES </a></li>
+                    <li><a href="directions.html">TRAVEL OPTIONS</a></li>
+                    <li><a href="directions.html">FAQ'S</a></li>
+                </ul>
+              </li>
+          </ul>
        </nav>
-    </header>
-        <!--the DIRECTIONS section of the page-->
-        <div id=directions> 
-            <h2>Directions</h2>
-                <address> 
-                UOL Park<br>
-                Happiness Boulevard<br>
-                Coursera City<br>
-                Kingdom of Goldsmiths<br>
-                AB1 2CD
-                </address>
-            
-            <div id=openingtimes>
-                <p>Park opening times:</p>
-                <table>
-                <tr><td><b>Day</b></td><td><b>Time</b></td></tr>
-                <tr><td>Monday</td><td>7am - 8pm</td></tr>
-                <tr><td>Tuesday</td><td>7am - 8pm</td></tr>
-                <tr><td>Wednesday</td><td>7am - 8pm</td></tr>
-                <tr><td>Thursday</td><td>7am - 8pm</td></tr>
-                <tr><td>Friday</td><td>7am - 8pm</td></tr>
-                <tr><td>Saturday</td><td>7am - 8pm</td></tr>
-                <tr><td>Sunday</td><td>7am - 8pm</td></tr>
-                </table>
-                <p>The park will be closed on <b>Christmas day</b> and <b>New years day</b> only</p>
-            </div>
-            <h3>Map to our park</h3>
-                <img src="media/map.jpg" alt="A map depicting the location of UOL park and its proximity to major roads and landmarks" width=50% height=50% />
-        </div>
     
-        <div id=contact>
-            <!--the CONTACT section of the page-->
-            <h2>Contact Us</h2>
-            <p>Telephone: 00123456789</p>
-            <p>email:uolpark@web.com</p>
-            <div id=officehours>
-                <p>office hours:</p>
-                <table>
-                <tr><td><b>Day</b></td><td><b>Time</b></td></tr>
-                <tr><td>Monday</td><td>9am - 5pm</td></tr>
-                <tr><td>Tuesday</td><td>9am - 5pm</td></tr>
-                <tr><td>Wednesday</td><td>9am - 5pm</td></tr>
-                <tr><td>Thursday</td><td>9am - 5pm</td></tr>
-                <tr><td>Friday</td><td>9am - 5pm</td></tr>
-                <tr><td>Saturday</td><td>Closed</td></tr>
-                <tr><td>Sunday</td><td>Closed</td></tr>
-                </table>
-            </div>
-        </div>
-        
-        <div id=rules>
-            <!--the RULES section of the page-->
-            <img src="media/rides.jpg" width=20% height=20% />
-            <h2>Rules and Regulations</h2>
-            <p>Here are things you should and should not do while at UOL park</p>
-            <h3>DO</h3>
-                <ul>
-                    <li><b>DO </b>have fun</li>
-                    <li><b>DO </b>spend lots of money</li>
-                    <li><b>DO </b>take lots of photos</li>
-                    <li><b>DO </b>tell everyone how amazing it is</li>
+    <!--Navigation for small screen-->
+       <div class="small-nav">
+               <ul>
+                  <li class="menu"><i class="fas fa-bars"></i>
+                <ul class="drop">
+                  <li class="drop-menu"><a href="index.html"><img class="image" src="media/experience.png" alt="hotairballoon icon"></a>
+                  </li>
+                  <li class="drop-menu"><a href="ticket.html"><img class="image" src="media/ticket.png" alt="ticket icon"></a>
+                  </li>
+                  <li class="drop-menu "><a href="directions.html"><img class="image currentpg" src="media/direction.png"></a> 
+                  </li>    
                 </ul>
-            <h3>DON'T</h3>
-                <ul>
-                    <li><b>DON'T </b>steal things</li>
-                    <li><b>DON'T </b>break things</li>
-                    <li><b>DON'T </b>hurt people</li>
-                    <li><b>DON'T </b>try to hurt people</li>
-                </ul>
+                <li>       
+              </ul>    
         </div>
-        
-        <div id="travel">
-            <!--the TRAVEL section of the page-->
-            <h2>Travelling Options</h2>
-            
-            <div class=container id=options>
-                <div id="car">
-                    <img src="media/ride3.jpg" width=20% height=20% />
-                    <h3>BY CAR</h3>
-                    <p>When coming to UOL park by car, you can use one of the 10,000 free parking spaces. take the 10<sup>th</sup> exit on Highway 1 for Happiness Boulevard and follow signs for UOL Park</p>
-                </div>
-                <div id="train">
-                    <img src="media/rides.jpg" width=20% height=20% />
-                    <h3>BY TRAIN</h3>
-                    <p>Regular North Highland Trains run from Assignment City Station direct to Coursera Station ,then 10mins walk from train station to UOL Park. </p>
-                </div>
-                <div id="bus">
-                    <img src="media/ride2.jpg" width=20% height=20% />
-                    <h3>BY BUS</h3>
-                    <p>There are many local buses from the city of Coursera that take you to UOL park, you can find bus time tables <a href="https://www.stagecoachbus.com/timetables">here.</a></p>
-                     <div id=shuttle>
-                        <h4>Shuttle Bus</h4>
-                        <p>UOL park also provides convenient shuttle buses for season ticket holders, please check the locations and departure times below</p>
-                        <table width=50%>
-                        <tr><td><b>Departure location</b></td><td><b>Departure from city at:</b></td><td><b>Departure from UOL park at:<b></td></tr>
-                        <tr><td>City Hall</td><td>07:30</td><td>19:30</td></tr>
-                        <tr><td>Downtown</td><td>06:45</td><td>18:30</td></tr>
-                        <tr><td>Uptown</td><td>08:15</td><td>18:15</td></tr>
-                        <tr><td>Righttown</td><td>07:30</td><td>19:45</td></tr>
-                        </table>
-                    </div>
-                </div>
-               
-               
-            </div>
+    </div>
+    <!--Directions-->
+    
+    
+    
+  <!--Footer-->  
+    <footer class="container-footer">
+    
+       <img src="media/Logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheel in place of letter O" />
+
+        <ul class="links">
+            <li><a href="index.html">Experience</a></li>
+            <li><a href="ticket.html">Tickets</a></li>
+            <li><a href="directions.html"> Help </a></li>
+        </ul>
+        <div class="icons">
+            <a href="https://facebook.com/" alt="facebook icon"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://twitter.com/" alt="twitter icon"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/" alt="instagram icon"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.pinterest.com/"alt="pinterest icon"><i class="fab fa-pinterest fa-2x"></i></a>
         </div>
-        <!--the FAQ section of the page-->
-        <h2>FAQ's</h2>
-    <!--the FOOTER section of the page-->
-    <footer>
+        <p class="copyright"> &#169; UOL Park 2020</p>
+    
+    
     </footer>
-</body>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+</body>  
 </html>
-<!--the main body of the page-->
-

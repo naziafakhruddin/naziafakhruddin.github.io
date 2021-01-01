@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
+<head>
+    <html lang="en">
 <head>
     <title>UOL Theme Park</title>
     <meta charset="UTF-8">
@@ -10,24 +11,217 @@
     <meta name="refresh" content="600">
     <meta name="keywords" content="Theme Park,Tickets, Rides,Families,Children">
     <meta name="robots" content="onindex,nofollow">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="nav.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
 </head>
+
 <body>
-
-<header>
-    <div id="logo">
-    <h1>UOL THEME PARK - Tickets Page</h1>
-    <img src="media/horizontal_logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheelinplace of letter O" width=300px height=100px />
+    <!--Navigation-->
+    <div class="container-nav">
+       <header class="logo">
+         <img src="media/horizontal_logo.png">
+       </header>
+       <nav class="nav">
+          <ul>
+              <li class="menu"><a href="index.html">Experience</a>
+                <ul class="drop-menu">
+                    <li><a href="index.html">EXPLORE</a></li>
+                    <li><a href="index.html">SPECIAL EVENTS</a> </li>
+                    <li><a href="index.html">REVIEWS</a></li>
+                    <li><a href="index.html">GALLERY</a></li>
+                </ul>
+              </li>
+              
+              <li class="menu currentpg "><a href="ticket.html">Tickets</a>
+                <ul class="drop-menu">
+                    <li><a href="#tickets">TICKETS</a></li>
+                    <li><a href="#passes">PASSES</a> </li>
+                    <li><a href="#addons">ADD ONS</a></li>
+                </ul>
+              </li>
+              <li class="menu"><a href="directions.html">Plan Your Visit</a>
+                <ul class="drop-menu">
+                    <li><a href="directions.html">DIRECTIONS</a></li>
+                    <li><a href="directions.html">CONTACT US</a></li>
+                    <li><a href="directions.html">RULES </a></li>
+                    <li><a href="directions.html">TRAVEL OPTIONS</a></li>
+                    <li><a href="directions.html">FAQ'S</a></li>
+                </ul>
+              </li>
+          </ul>
+       </nav>
+    
+    <!--Navigation for small screen-->
+        <div class="small-nav">
+         <ul>
+            <li class="menu"><i class="fas fa-bars"></i>
+                <ul class="drop">
+                  <li class="drop-menu">
+                      <a href="index.html"><img class="image" src="media/experience.png" alt="hotairballoon icon"></a>
+                  </li>
+                  <li class="drop-menu">
+                      <a href="ticket.html"><img class=" image currentpg" src="media/ticket.png" alt="ticket icon"></a>
+                  </li>
+                  <li class="drop-menu ">
+                      <a href="directions.html"><img class="image" src="media/direction.png"></a> 
+                  </li>    
+                </ul>
+             <li>       
+         </ul>    
+        </div>
     </div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Experience</a></li>
-            <li><a href="ticket.html">Tickets & Passes</a></li>
-            <li><a href="directions.html">Help</a></li>
-        </ul>
-   </nav>
-</header>
-<!---Main Page video ,banner and button -->
+   <!--Contents--> 
+    <div class="container-contents">
+     <div class="heading">
+        <h2 id="tickets">Tickets</h2>
+    </div>
+  
+        <div class="ticket1">
+        <img src="media/starflyer.jpg" alt="ferris wheel">
+        <h3 >1DAY TICKET</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        
+        <div class="ticket2">
+        <img src="media/starflyer.jpg" alt="ferris wheel">
+        <h3 >SHORT BREAKS TICKET</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+       </div>
+        
+        <div class="ticket3">
+        <img src="media/starflyer.jpg" alt="ferris wheel">
+        <h3 >ADULT AND PRESCHOOLER TICKET</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+   
+    <div class="heading">
+        <h2 id="passes">Passes</h2>
+    </div>
+    
+        <div class="ticket4">
+        <img src="media/starflyer.jpg" alt="ferris wheel">
+        <h3 >1DAY TICKET</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        
+        <div class="ticket5">
+        <img src="media/starflyer.jpg" alt="ferris wheel">
+        <h3 >SHORT BREAKS TICKET</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+       </div>
+        
+        <div class="ticket6">
+        <img src="media/starflyer.jpg" alt="ferris wheel">
+        <h3 >ADULT AND PRESCHOOLER TICKET</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    
+  
+    <div class="heading">
+        <h2 id="addons">Add Ons</h2>
+    </div>
+    
+        <div class="ticket7">
+        <img src="media/starflyer.jpg" alt="ferris wheel">
+        <h3 >1DAY TICKET</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        
+        <div class="ticket8">
+        <img src="media/starflyer.jpg" alt="ferris wheel">
+        <h3 >SHORT BREAKS TICKET</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+       </div>
+        
+        <div class="ticket9">
+        <img src="media/starflyer.jpg" alt="ferris wheel">
+        <h3 >ADULT AND PRESCHOOLER TICKET</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    
+    </div>
+    <div class="container-newsletter">
+        <h2>SIGN UP TO OUR NEWSLETTER HERE</h2>
+        <form>
+        <input type="text" id="lname" name="lname" value="E-mail Address"><br><br>
+        <input class="btn" type="submit" value="Submit">
+        </form>
+    </div>
+   
+    <footer class="container-footer">
+    
+       <img src="media/Logo.png" alt="On the logo of the theme park it's written UOL Park with Ferris wheel in place of letter O" />
 
-</body>
+        <ul class="links">
+            <li><a href="index.html">Experience</a></li>
+            <li><a href="ticket.html">Tickets</a></li>
+            <li><a href="directions.html"> Help </a></li>
+        </ul>
+        <div class="icons">
+            <a href="https://facebook.com/" alt="facebook icon"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://twitter.com/" alt="twitter icon"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/" alt="instagram icon"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.pinterest.com/"alt="pinterest icon"><i class="fab fa-pinterest fa-2x"></i></a>
+        </div>
+        <p class="copyright"> &#169; UOL Park 2020</p>
+    
+    
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+</body>  
 </html>
