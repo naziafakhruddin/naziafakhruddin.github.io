@@ -32,8 +32,21 @@
 
        <div class="container" id="directions"> 
             <h1>Help</h1>
-           
-                <h2>Directions</h2>
+            <h2>Directions</h2>
+           <div  id="map">
+                <h3>Map to UOL Park</h3>
+                <figure>
+                    <img src="media/map.png"  alt="A map depicting the location of UOL park and its proximity to major roads and landmarks"/>
+                    <figcaption>
+                      <em> Information about rides and facilities</em>
+                    </figcaption>
+                 </figure>
+            </div>
+
+           <div class="grid-container">
+               
+           <div class="grid-item">
+               <h3>Address</h3>
                 <address> 
                 UOL Park<br>
                 Happiness Boulevard<br>
@@ -41,8 +54,13 @@
                 Kingdom of Goldsmiths<br>
                 AB1 2CD
                 </address>
+            </div>
             
-            <div id=openingtimes>
+               
+            <!-- Map section code by Nazia Fakhruddin of Group 100 (Tutor group 10)-->   
+            
+            
+            <div class="grid-item" id=openingtimes>
                 <h3>Park opening times:</h3>
                 <table>
                 <tr><td><b>Day</b></td><td><b>Time</b></td></tr>
@@ -57,20 +75,14 @@
                 <p>The park will be closed on <b>Christmas day</b> and <b>New Years day</b> only</p>
             </div>
            
-            <!-- Map section code by Nazia Fakhruddin of Group 100 (Tutor group 10)-->   
-            <div id="map">
-                <h3>Map to UOL Park</h3>
-                <figure>
-                    <img src="media/map.png" width="350" height="242" alt="A map depicting the location of UOL park and its proximity to major roads and landmarks"/>
-                    <figcaption>
-                      <em> Information about rides and facilities</em>
-                    </figcaption>
-                 </figure>
-            </div>
+            
           
             <!--the CONTACT section of the page-->
-            <div id=contact>
-              <h2>Contact Us</h2>
+           
+           
+          
+            <div class="grid-item" id=contact>
+              <h3>Contact Us</h3>
               <p>Telephone: 00123456789</p>
               <p>email:uolpark@web.com</p>
               <div id="officehours">
@@ -88,12 +100,22 @@
                 </table>
               </div>
             </div>
+            </div>
          </div>
         
-         <div class="container" id=rules>
+    
+    
+        
+         <div class="container" id=doublegrid>
             <!--the RULES section of the page-->
+             <h2>Rules and Regulations</h2>
+             
+            <div class="grid-container">
+            <div class="grid-item">
             <img src="media/rules.jpg" width="350" height="242" alt="Rules word is written with the blocks" />
-            <h2>Rules and Regulations</h2>
+                </div>
+             
+            <div class="grid-item">
             <p>Here are things you should and should not do while at UOL park</p>
             <h3>DO</h3>
                 <ul>
@@ -109,25 +131,44 @@
                     <li><b>DON'T </b>hurt people</li>
                     <li><b>DON'T </b>try to hurt people</li>
                 </ul>
+            </div>
         </div>
         
-        <div class="container" id="travel">
-            <!--the TRAVEL section of the page-->
-            <h2>Travelling Options</h2>
+        
+        
             
+            <!--the TRAVEL section of the page-->
+            
+            <h2>Travelling Options</h2>
             <div id="options">
-                <div id="car">
+                <div id="doublegrid">
+                    <div class="grid-container">
+                    <div class="grid-item">
                     <img src="media/car1.jpg" width="350" height="242" alt=" A yellow colour toy car" />
+                    </div>
+                    <div class="grid-item">
                     <h3>BY CAR</h3>
                     <p>When coming to UOL park by car, you can use one of the 10,000 free parking spaces. take the 10<sup>th</sup> exit on Highway 1 for Happiness Boulevard and follow signs for UOL Park</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="train">
+                <div id="doublegrid">
+                    <div class="grid-container">
+                    <div class="grid-item">
                     <img src="media/train1.jpg" width="350" height="242" alt="A yellow colour toy train on the track"/>
+                        </div>
+                       <div class="grid-item"> 
                     <h3>BY TRAIN</h3>
                     <p>Regular North Highland Trains run from Assignment City Station direct to Coursera Station ,then 10mins walk from train station to UOL Park. </p>
+                        </div>
+                    </div>
                 </div>
-                <div id="bus">
+                <div id="doublegrid">
+                    <div class="grid-container">
+                    <div class="grid-item">
                     <img src="media/bus.jpg" width="350" height="242" alt="A brown colour toy bus"/>
+                        </div>
+                        <div class="grid-item">
                     <h3>BY BUS</h3>
                     <p>There are many local buses from the city of Coursera that take you to UOL park, you can find bus time tables <a href="https://www.stagecoachbus.com/timetables">here.</a></p>
                      <div id="shuttle">
@@ -141,16 +182,23 @@
                         <tr><td>Righttown</td><td>07:30</td><td>19:45</td></tr>
                         </table>
                       </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        
             
   <!-- FAQ's section with images and links code written by Nazia Fakhruddin of Group 100 (Tutor group 10) -->
   
-      <div class="container" id="faq">
+      <div id="doublegrid">
         <h2>FAQ's</h2>
-         <div class="questions">
+        <div class="grid-container">
+        
+         <div class="grid-item">
+             
            <img src="media/ferriswheel.jpg" width="350" height="242" alt=" Ferris wheel" />
+            </div>
+            <div class="grid-item">
            <p>
                <b>Do you offer open dated ticket?</b>
            </p>
@@ -158,8 +206,10 @@
                No,we do not offer open dated or gift tickets
             </p>
           </div>
-          <div class="questions">
+          <div class="grid-item">
                <img src="media/fountain.jpg" width="350" height="242" alt="Children playing in the fountain"/>
+            </div>
+            <div class="grid-item">
                <p>
                    <b>Can I buy 2 day ticket?</b>
                </p>
@@ -167,8 +217,10 @@
                    Yes!, you can buy 2 day ticket contact <a target="blank" href="ticket.html">here</a> for more information.
                </p>
            </div>
-           <div class="questions">
+           <div class="grid-item">
                <img src="media/aerialv.jpg" width="350" height="242" alt="Aerial view of the water park"/>
+            </div>
+            <div class="grid-item">
                <p>
                    <b>What does a membership include?</b>
                </p>
@@ -176,8 +228,10 @@
                    Unlimited entry and in park discounts.
                </p>
            </div>
-           <div class="questions">
+           <div class="grid-item">
                <img src="media/droptower.jpg" width="350" height="242" alt="Drop Tower ride"/>
+            </div>
+            <div class="grid-item">
                <p>
                    <b>What are the current enterance ticket prices?</b>
                </p>
@@ -186,6 +240,7 @@
                   or go to our <a target="blank" href="ticket.html"> website </a> for more information. 
                </p>
           </div>
+             </div>
        </div>
             
   <!-- The footer section with logo , links , social media icons and links  code written by Sergio Bustos of Group 100 (Tutor group 10) -->
