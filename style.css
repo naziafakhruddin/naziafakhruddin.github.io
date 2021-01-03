@@ -211,3 +211,54 @@ footer #icons a{
 footer .copyright{
     color:#BA55D3;
 }
+
+
+#directions .grid-container{
+    margin:auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#directions .grid-item {
+    text-align: left;
+}
+
+#doublegrid .grid-container{
+    margin:auto;
+    display: grid;
+    grid-template-columns: 400px auto ;
+}
+
+#doublegrid .grid-item {
+    text-align: left;
+}
+
+#doublegrid .grid-item h3{
+    margin-top: 0px
+}
+
+
+@media only screen and (max-width: 600px){
+    .container{
+        width:90%
+    }
+    #directions .grid-container{
+    margin:auto;
+    display: grid;
+    grid-template-columns: auto;
+    }
+    img{
+        width:100%;
+        height: auto;
+    }
+    
+}
+        
+@media only screen and (max-width: 600px){
+    #doublegrid .grid-container{
+    margin:auto;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+ 
